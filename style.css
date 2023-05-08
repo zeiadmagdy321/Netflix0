@@ -9,6 +9,7 @@
 body{
     background: #00081d;
     color: #fff;
+   
 
 }
 
@@ -16,7 +17,7 @@ body{
 .header{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/header-image.png);
+    background-image: linear-gradient(rgba(3,9,28,0.2),rgba(0, 7, 30,1)),url(images/header-image.png);
     background-size: cover;
     background-position: center;
     padding: 10px 8px;
@@ -82,15 +83,27 @@ form .submit{
     
 }
 .card-body{
+    background-image: linear-gradient(to bottom right,#0b133a, #3a0e22);
     background-color: #00081d;
     color: #fff;
     text-align: start;
     font-size:large  ;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    
 
 }
-.card>img{
-    background-color: #00081d;
+.card{
+    border: 0px solid #00081d;
+    border-radius: 20px;
 }
+
+.card>img{
+    
+    background-image: linear-gradient(to bottom right,#0b133a, #3a0e22);
+
+}
+
 .accordion-item{
     background-color:#132144 ;
     color: #fff;
@@ -117,7 +130,6 @@ h1{
 .container>h2{
     font-size: 45px;
     margin-top: 80px;
-    margin-left: 30px;
     text-align: start;
     margin-bottom: 0px;
 }
@@ -133,8 +145,11 @@ header>p{
     margin-left: 100px;
 }
 footer p{
+    display: flex;
     height: 50vh;
-    text-align: center;
+    text-align: end;
+    justify-content: center;
+    align-items: center;
     color:#fff;
 
 }
