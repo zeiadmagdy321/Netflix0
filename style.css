@@ -17,7 +17,7 @@ body{
 .header{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(3,9,28,0.2),rgba(0, 7, 30,1)),url(images/header-image.png);
+    background-image: linear-gradient(rgba(3,9,28,0.2),rgba(0, 7, 30,1)),url(EG-en-20230417-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
     background-size: cover;
     background-position: center;
     padding: 10px 8px;
@@ -45,6 +45,7 @@ nav button{
     margin-left: 6px;
     cursor: pointer;
     
+    
 
 }
  
@@ -55,6 +56,8 @@ nav button{
     border: 1px solid #fff;
     padding: 5px 20px;
     margin-left: 900px;
+
+
      
 }
 
@@ -68,6 +71,8 @@ nav button{
 #floatingInputValue{
     font-size: larger;
     padding-top: 20px;
+    background-color: rgb(15, 17, 24,0.7);
+    color: #b7b8ba;
     
 } 
 
@@ -76,7 +81,7 @@ form .submit{
     color: #fff;
     font-size: 30px;
     background:  #db0001;
-    padding: 8px 10px;
+    padding: 8px 20px;
     border: 0px solid #fff;
     border-radius: 4px;
     margin-left: 10px;
@@ -90,6 +95,7 @@ form .submit{
     font-size:large  ;
     border-end-end-radius: 10px;
     border-end-start-radius: 10px;
+    padding: 50px;
     
 
 }
@@ -113,7 +119,7 @@ form .submit{
 }
 .accordion-button{
     background-color: #132144;
-    font-size: larger;
+    font-size: 23 px;
 
 }
 
@@ -144,7 +150,7 @@ header>p{
     text-align: start;
     margin-left: 100px;
 }
-footer p{
+section>p{
     display: flex;
     height: 50vh;
     text-align: end;
@@ -152,4 +158,14 @@ footer p{
     align-items: center;
     color:#fff;
 
+}
+footer>p{
+    text-align: start;
+    margin: 30px 120px;
+    font-size: 18px;
+
+}
+footer>form{
+    display: flex;
+    margin-left: 20px;
 }
