@@ -24,16 +24,24 @@ body{
     position: relative;
 }
 
+
+
 nav{
     display: flex;
     align-items: center;
     justify-content:space-between;
     padding: 10px 30px;
 }
+
+
+
 .logo{
     width: 140px;
     cursor: pointer;
 }
+
+
+
 nav button{
     background:#db0001;
     color: #fff;
@@ -48,9 +56,15 @@ nav button{
     
 
 }
+
+
+
 button>a{
     text-decoration: none;
 }
+
+
+
  
 .btn-secondary{
     display: inline-flex;
@@ -71,6 +85,9 @@ button>a{
     width: 35%;
     
 }
+
+
+
 #floatingInputValue{
     font-size: larger;
     padding-top: 20px;
@@ -90,6 +107,10 @@ form .submit{
     margin-left: 10px;
     
 }
+
+
+
+
 .card-body{
     background-image: linear-gradient(to bottom right,#0b133a, #3a0e22);
     background-color: #00081d;
@@ -102,16 +123,27 @@ form .submit{
     
 
 }
+
+
+
+
 .card{
     border: 0px solid #00081d;
     border-radius: 20px;
 }
+
+
+
+
 
 .card>img{
     
     background-image: linear-gradient(to bottom right,#0b133a, #3a0e22);
 
 }
+
+
+
 
 .accordion-item{
     background-color:#132144 ;
@@ -120,6 +152,10 @@ form .submit{
     margin-top: 10px;
     border: 0px solid #132144;
 }
+
+
+
+
 .accordion-button{
     background-color: #132144;
     font-size: 23px;
@@ -127,16 +163,24 @@ form .submit{
 
 }
 
+
 strong{
     color: #fff;
     
 }
+
+
+
 h1{
     text-align: start ;
     align-items: center;
     margin: 50px 100px; 
     font-size: 80px;
 }
+
+
+
+
 .container>h2{
     font-size: 45px;
     margin-top: 80px;
@@ -144,16 +188,25 @@ h1{
     margin-bottom: 0px;
 }
 
+
+
+
 h3{
     text-align: start;
     font-size: 20px;
     margin-left: 100px;
 }
 
+
+
+
 header>p{
     text-align: start;
     margin-left: 100px;
 }
+
+
+
 section>p{
     display: flex;
     height: 50vh;
@@ -163,12 +216,17 @@ section>p{
     color:#fff;
 
 }
+
+
 footer>p{
     text-align: start;
     margin: 30px 120px;
     font-size: 18px;
 
 }
+
+
+
 footer>form{
     display: flex;
     margin-left: 20px;

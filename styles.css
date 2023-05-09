@@ -6,15 +6,19 @@
 
 }
 
+
 img{
     width: 230px;
     padding: 30px 30px;
 }
 
+
 body{
     
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0,0.5)),url(background.jpg);
 }
+
+
 
 form{
     
@@ -28,35 +32,25 @@ form{
     border-radius: 5px;
 }
 
+
 footer{
     height: 40vh;
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));;
 }
+
+
+
 h1{
     color: #ffffff;
     font-size: 35px;
     margin-bottom: 20px;
     
 }
-#exampleInputEmail1{
-    background-color: #333333;
-    border: 0px solid #333333;
-    padding: 13px;
-    padding-right: 125px ;
-    
-}
-#exampleInputPassword1{
-    
-    background-color: #333333;
-    border: 0px solid #333333;
-    padding: 13px;
-    padding-right: 125px ;
-    
-}
+
 
 
 .form-control{
-    color: #b3b3b3;
+    
     background-color: #333333;
     border: 0px solid #333333;
     padding: 13px;
@@ -64,33 +58,55 @@ h1{
     
     
 }
+
+
 
 
  form button{
     width: 100%;
     background-color: #e50914;
  }
+
+
+
+
  .btn-primary{
     background-color: #e50914;
     border: 0px solid red;
     padding: 12px; 
     margin-top: 20px; 
  }
+
+
+
+
  a{
     font-size: small;
     color: #fff;
     text-decoration: none;
     margin-top: 30px;
  }
+
+
+
+
  h6{
     color: #737373;
     margin-top: 50px;
  }
 
+
+
+
+ 
  label+a{
     color: #b3b3b3;
     margin-inline: 50px;
  }
+
+
+
+
  label{
     color: #b3b3b3;
  }
